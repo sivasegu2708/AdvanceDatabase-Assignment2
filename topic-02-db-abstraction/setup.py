@@ -13,11 +13,9 @@ except:
 
 cursor.execute("create table list (id integer primary key, description text)")
 
-cursor.execute("insert into list (description) values ('apples')")
-cursor.execute("insert into list (description) values ('broccoli')")
-cursor.execute("insert into list (description) values ('pizza')")
-cursor.execute("insert into list (description) values ('tangerine')")
-cursor.execute("insert into list (description) values ('potatoes')")
+cursor.execute("insert into list (description) values ('oranges')")
+cursor.execute("insert into list (description) values ('apple')")
+cursor.execute("insert into list (description) values ('pineapple')")
 
 connection.commit()
 connection.close()

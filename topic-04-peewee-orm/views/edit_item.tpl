@@ -1,9 +1,9 @@
 <html>
 <body>
-Edit this item...
+Edit item page
 <hr/>
 <form action="/edit/{{id}}" method="post">
-  <p>Edit Item:<input name="description" value="{{description}}"/></p>
+  <p>Edit Item Name:<input name="description" value="{{description}}"/></p>
   <p><button type="submit">Submit</button></p>
 </form>
 <hr/>
